@@ -13,11 +13,11 @@ namespace NewMVCAppTest
         [TestMethod]
         public void TestMethod1()
         {
-            AccountViewModel avm = new AccountViewModel("abc","1234");
+            AccountViewModel avm = new AccountViewModel();
             //   avm.account.Username = "abc";
             // avm.account.Password = "1234";
-              // avm.Username = "abc";
-            //   avm.Password = "1234";
+               avm.Username = "abc";
+               avm.Password = "1234";
               //AccountController ac = new AccountController();
               //ViewResult ar = ac.Login(avm) as ViewResult;
               //Assert.AreEqual("Welcome", ar.ViewName, "loginsuccess");
@@ -33,7 +33,9 @@ namespace NewMVCAppTest
         [TestMethod]
         public void TestMethod2()
         {
-            AccountViewModel avm = new AccountViewModel("abcd","123");
+            AccountViewModel avm = new AccountViewModel();
+            avm.Username = "abcd";
+            avm.Password = "1234";
             AccountController controller = new AccountController();
             var result = controller.Login(avm) as ViewResult;
             Assert.AreEqual("Index", result.ViewName);
@@ -43,7 +45,9 @@ namespace NewMVCAppTest
         [TestMethod]
         public void TestMethod3()
         {
-            AccountViewModel avm = new AccountViewModel("abc", "1234");
+            AccountViewModel avm = new AccountViewModel();
+            avm.Username = "abc";
+            avm.Password = "1234";
             AccountController controller = new AccountController();
             var result = controller.Login(avm) as ViewResult;
             Assert.AreEqual("Index", result.ViewName);

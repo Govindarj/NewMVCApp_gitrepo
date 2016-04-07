@@ -14,16 +14,16 @@ namespace NewMVCApp.ViewModels
             get;
             set;
         }*/
-        public AccountViewModel(String username, String password)
+    /*    public AccountViewModel(String username, String password)
         {
             Username = username;
             Password = password;
-        }
-        public AccountViewModel()
+        }*/
+      /*  public AccountViewModel()
         {
             Username = "abc";
             Password = "1234";
-        }
+        }*/
         [Display(Name = "Username")]
         [Required(ErrorMessage = "required")]
         public string Username

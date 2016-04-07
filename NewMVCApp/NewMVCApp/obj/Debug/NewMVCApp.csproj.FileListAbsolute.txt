@@ -47,4 +47,3 @@ D:\Users\h156370\Documents\Visual Studio 2015\Projects\NewMVCApp\NewMVCApp\bin\S
 D:\Users\h156370\Documents\Visual Studio 2015\Projects\NewMVCApp\NewMVCApp\bin\System.Web.Mvc.xml
 D:\Users\h156370\Documents\Visual Studio 2015\Projects\NewMVCApp\NewMVCApp\obj\Debug\NewMVCApp.dll
 D:\Users\h156370\Documents\Visual Studio 2015\Projects\NewMVCApp\NewMVCApp\obj\Debug\NewMVCApp.pdb
-D:\Users\h156370\Documents\Visual Studio 2015\Projects\NewMVCApp\NewMVCApp\obj\Debug\NewMVCApp.csprojResolveAssemblyReference.cache
